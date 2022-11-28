@@ -13,13 +13,13 @@ function App() {
         <Toolbar>
           <Button href="#" variant="text">SP</Button>
 
-          <Link href="https://linkedin.com">
+          <Link href="https://www.linkedin.com/in/platt-sam/">
             <IconButton>
               <LinkedInIcon></LinkedInIcon>
             </IconButton>
           </Link>
 
-          <Link href="https://github.com">
+          <Link href="https://github.com/platt-sam/">
             <IconButton>
               <GitHubIcon></GitHubIcon>
             </IconButton>
