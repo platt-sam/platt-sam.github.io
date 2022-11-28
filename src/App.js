@@ -1,10 +1,11 @@
 // import logo from './logo.svg';
 import './App.css';
-import { AppBar, Button, Icon, IconButton, Link, Paper, Stack, styled, Toolbar} from '@mui/material';
+import { AppBar, Button, Icon, IconButton, Link, Toolbar} from '@mui/material';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 
-const pagelinks = ['linkedin.com', 'github.com'];
+const github = "https://github.com/platt-sam/";
+const linkedin = "https://www.linkedin.com/in/platt-sam/";
 
 function App() {
   return (
@@ -13,13 +14,13 @@ function App() {
         <Toolbar>
           <Button href="#" variant="text">SP</Button>
 
-          <Link href="https://www.linkedin.com/in/platt-sam/">
+          <Link href={linkedin}>
             <IconButton>
               <LinkedInIcon></LinkedInIcon>
             </IconButton>
           </Link>
 
-          <Link href="https://github.com/platt-sam/">
+          <Link href={github}>
             <IconButton>
               <GitHubIcon></GitHubIcon>
             </IconButton>
