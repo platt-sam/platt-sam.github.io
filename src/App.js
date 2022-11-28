@@ -12,7 +12,9 @@ function App() {
     <div className="App">
       <AppBar>
         <Toolbar>
-          <Button href="#" variant="text">SP</Button>
+          <Link href="#">
+            <IconButton variant="text">SP</IconButton>
+          </Link>
 
           <Link href={linkedin}>
             <IconButton>
