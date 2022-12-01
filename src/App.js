@@ -64,9 +64,9 @@ function App() {
           margin: "0 auto",
           width: "70%",
         }}>
-          I've leaned into design from the start. My first foray into code was web development in high school, but I was already sketching out new designs and layouts years before I created my first HTML file.<br/><br/>
-          After a software engineering internship that showed me the importance of UX and UI design in the softare development lifecycle, I realized it was beyond time to return to creativity. I spent my fourth year of college exploring all things design.<br/><br/>
-          My goal as a software engineer has always been to surpass the standard of making a product that works; I strive to create software that is intuitive and a pleasant experience for all users.
+          I've leaned into design from the start. My first foray into code was through web development in high school, but I was already sketching out designs years before I created my first HTML file.<br/><br/>
+          After a software engineering internship at Docker that showed me the importance of UX and UI design in the software development lifecycle, I realized it was time to return to creativity. I am spending my fourth and final year of college exploring all things design.<br/><br/>
+          My goal as a software engineer has always been to surpass the standard of making a product that works; I strive to create software that is an intuitive and pleasant experience for all users.
         </Typography>
 
         {/* MY WORK */}
