@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.a1b5ce6a.css",
-    "main.js": "/static/js/main.63e9a854.js",
+    "main.css": "/static/css/main.85421ad1.css",
+    "main.js": "/static/js/main.04ca6db6.js",
+    "static/media/makeitmoveanimation.mp4": "/static/media/makeitmoveanimation.2a87484703bf6d82c354.mp4",
+    "static/media/soucsclubposter.jpg": "/static/media/soucsclubposter.a1c198a296794f1c2b1d.jpg",
+    "static/media/mothman.png": "/static/media/mothman.542e5ce26ff2a104435d.png",
+    "static/media/surveillance.png": "/static/media/surveillance.e50efa7e5c2a1e719abb.png",
     "index.html": "/index.html",
-    "main.a1b5ce6a.css.map": "/static/css/main.a1b5ce6a.css.map",
-    "main.63e9a854.js.map": "/static/js/main.63e9a854.js.map"
+    "main.85421ad1.css.map": "/static/css/main.85421ad1.css.map",
+    "main.04ca6db6.js.map": "/static/js/main.04ca6db6.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1b5ce6a.css",
-    "static/js/main.63e9a854.js"
+    "static/css/main.85421ad1.css",
+    "static/js/main.04ca6db6.js"
   ]
 }
