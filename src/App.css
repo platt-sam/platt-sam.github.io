@@ -13,6 +13,7 @@
 }
 
 .project {
+  min-height: 500px;
   position: relative;
 }
 
@@ -38,15 +39,4 @@
   height: 10pt;
   position: absolute;
   bottom: 0;
-}
-
-@media screen and (max-width: 900px) {
-  .project {
-    min-height: 400px;
-  }
-}
-@media screen and (min-width: 900px) {
-  .project {
-    min-height: 450px;
-  }
 }
