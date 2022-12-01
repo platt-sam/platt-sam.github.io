@@ -1,5 +1,7 @@
 import './App.css';
 import { AppBar, Card, CardActions, CardContent, CardHeader, CardMedia, Grid, IconButton, Link, Toolbar, Typography} from '@mui/material';
+
+import EmailIcon from '@mui/icons-material/Email';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
@@ -22,6 +24,10 @@ function App() {
           <Link href={github}>
             <IconButton><GitHubIcon></GitHubIcon></IconButton>
           </Link>
+
+          <Link href="mailto:platts1@sou.edu">
+            <IconButton><EmailIcon></EmailIcon></IconButton>
+          </Link>
         </Toolbar>
       </AppBar>
 
@@ -31,25 +37,25 @@ function App() {
 
           <Grid item xs={1}> 
             <Card className="project" >
-                <CardHeader title="Conversational Transcript" subheader="aws, python, reactjs" />
+                <CardHeader title="Conversational Transcript" subheader="aws, awstranscribe, python, reactjs" />
                 <CardContent>
-                  Lorem ipsum dolor sit amet. Consectetur adipiscing elit.
+                Conversational Transcription is a web application created for the Southern Oregon University IT department. Dynamically generates transcripts of conversations with multiple audio input sources. Transcripts specify the speaker and includes timestamps for each piece of conversation.
                 </CardContent>
-                <CardContent sx={{ fontSize: "10pt" }} >
+                <CardActions className="actions" >
                   <Link href="#" >+ see more</Link>
-                </CardContent>
+                </CardActions>
             </Card>
           </Grid>
 
           <Grid item xs={1}> 
-          <Card className="project" >
-                <CardHeader title="Laughing Stock" subheader="html, java" />
+          <Card className="project">
+                <CardHeader title="Laughing Stock" subheader="gamedesign, html, java" />
                 <CardContent>
                   Lorem ipsum dolor sit amet. Consectetur adipiscing elit.
                 </CardContent>
-                <CardContent sx={{ fontSize: "10pt" }} >
+                <CardActions className="actions" >
                   <Link href="#" >+ see more</Link>
-                </CardContent>
+                </CardActions>
             </Card>
           </Grid>
 
@@ -59,21 +65,21 @@ function App() {
                 <CardContent>
                   Google Cloud Platform (GCP) app displaying information about charities and social services in the Medford, Oregon area. Allows user submitted entries. Written in Python using Flask. Uses the Google Maps API to show site locations.
                 </CardContent>
-                <CardContent sx={{ fontSize: "10pt" }} >
+                <CardActions className="actions" >
                   <Link href="#" >+ see more</Link>
-                </CardContent>
+                </CardActions>
             </Card>
           </Grid>
 
           <Grid item xs={1}> 
             <Card className="project" >
-                <CardHeader title="Ballad of the Woods" subheader="html, javasript" />
+                <CardHeader title="Ballad of the Woods" subheader="html, javasript, gamedesign" />
                 <CardContent>
-                  Lorem ipsum dolor sit amet. Consectetur adipiscing elit.
+                  A browser based videogame loosely inspired by the musical “Hadestown”. Browser based game written in JavaScript with some HTML and CSS
                 </CardContent>
-                <CardContent sx={{ fontSize: "10pt" }} >
+                <CardActions className="actions" >
                   <Link href="#" >+ see more</Link>
-                </CardContent>
+                </CardActions>
             </Card>
           </Grid>
 
@@ -83,21 +89,21 @@ function App() {
                 <CardContent>
                   Program that generates comments suggesting that a random ingredient from a given ingredient list is substituted with one randomly chosen from a list of thousands of ingredients.
                 </CardContent>
-                <CardContent sx={{ fontSize: "10pt" }} >
+                <CardActions className="actions" >
                   <Link href="#" >+ see more</Link>
-                </CardContent>
+                </CardActions>
             </Card>
           </Grid>
 
           <Grid item xs={1}> 
             <Card className="project" >
-                <CardHeader title="Southern Oregon University Computer Science Club Poster" subheader="adobeillustrator, graphicdesign, marketing, typography" />
+                <CardHeader title="Computer Science Club Poster" subheader="adobeillustrator, graphicdesign, marketing, typography" />
                 <CardContent>
-                  Lorem ipsum dolor sit amet.
+                Poster created to advertise Southern Oregon University's Computer Science club, highlighting several key events to take place during the 2022-23 school year.
                 </CardContent>
-                <CardContent sx={{ fontSize: "10pt" }} >
+                <CardActions className="actions" >
                   <Link href="https://drive.google.com/file/d/1UoewJIciUST3yoQMVQTvgrjl-Ip_Zbzm/view?usp=share_link" >+ see more</Link>
-                </CardContent>
+                </CardActions>
             </Card>
           </Grid>
 

@@ -9,5 +9,12 @@
 }
 
 .project {
-  min-height: 250px;
+  height: 300px;
+  position: relative;
+}
+
+.actions {
+  font-size: 10pt;
+  position: absolute;
+  bottom: 0;
 }
