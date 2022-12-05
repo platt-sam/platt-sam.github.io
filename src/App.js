@@ -2,6 +2,8 @@ import './App.css';
 import { AppBar, Card, CardActions, CardContent, CardHeader, CardMedia, Grid, IconButton, Link, Toolbar, Typography} from '@mui/material';
 
 import csclubposter from './media/soucsclubposter.jpg'
+import lighthousesmagazine from './media/lighthouses_magazine.pdf'
+import lighthousesmagazinecover from './media/lighthouses_magazine_cover.jpg'
 import makeitmoveanimation from './media/makeitmoveanimation.mp4'
 import mothman from './media/mothman.png'
 import surveillance from './media/surveillance.png'
@@ -65,7 +67,7 @@ function App() {
           width: "70%",
         }}>
           I've leaned into design from the start. My first foray into code was through web development in high school, but I was already sketching out designs years before I created my first HTML file.<br/><br/>
-          After a software engineering internship at Docker that showed me the importance of UX and UI design in the software development lifecycle, I realized it was time to return to creativity. I am spending my fourth and final year of college exploring all things design.<br/><br/>
+          After a software engineering internship at Docker that showed me the importance of UX and UI design in the software development lifecycle, I realized it was time to return to creativity. I spent my fourth and final year of college exploring all things design.<br/><br/>
           My goal as a software engineer has always been to surpass the standard of making a product that works; I strive to create software that is an intuitive and pleasant experience for all users.
         </Typography>
 
@@ -83,7 +85,7 @@ function App() {
 
         <Grid container columns={6} spacing={"25px"} >
 
-          <Grid item xs={6} sm={3} md={2}>
+          <Grid item xs={6} sm={3} md={2} className="projectgrid" >
             <Card className="project" >
                 <CardContent className="projectname">
                   Conversational Transcript 2.0
@@ -103,7 +105,7 @@ function App() {
             </Card>
           </Grid>
 
-          <Grid item xs={6} sm={3} md={2}>
+          <Grid item xs={6} sm={3} md={2} className="projectgrid" >
             <Card className="project">
                 <CardContent className="projectname">
                   Laughing Stock
@@ -123,7 +125,7 @@ function App() {
             </Card>
           </Grid>
 
-          <Grid item xs={6} sm={3} md={2}>
+          <Grid item xs={6} sm={3} md={2} className="projectgrid" >
             <Card className="project" >
                 <CardContent className="projectname">
                   Medford Charities and Social Services
@@ -143,7 +145,7 @@ function App() {
             </Card>
           </Grid>
 
-          <Grid item xs={6} sm={3} md={2}>  
+          <Grid item xs={6} sm={3} md={2} className="projectgrid" > 
             <Card className="project" >
                 <CardContent className="projectname">
                   Ballad of the Woods
@@ -163,7 +165,7 @@ function App() {
             </Card>
           </Grid>
 
-          <Grid item xs={6} sm={3} md={2}> 
+          <Grid item xs={6} sm={3} md={2} className="projectgrid" >
             <Card className="project" >
                 <CardContent className="projectname">
                   Recipe Substitutor
@@ -183,7 +185,7 @@ function App() {
             </Card>
           </Grid>
 
-          <Grid item xs={6} sm={3} md={2}>
+          <Grid item xs={6} sm={3} md={2} className="projectgrid" >
             <Card className="project" >
                 <CardContent className="projectname">
                   Docker Access Management
@@ -203,7 +205,7 @@ function App() {
             </Card>
           </Grid>
 
-          <Grid item xs={6} sm={3} md={2}>
+          <Grid item xs={6} sm={3} md={2} className="projectgrid" >
             <Card className="project">
                 <CardContent className="projectname">
                   Mortality (Anxieties)
@@ -230,7 +232,7 @@ function App() {
             </Card>
           </Grid>
 
-          <Grid item xs={6} sm={3} md={2}>
+          <Grid item xs={6} sm={3} md={2} className="projectgrid" >
             <Card className="project">
                 <CardContent className="projectname">
                   Surveillance (Anxieties)
@@ -257,7 +259,7 @@ function App() {
             </Card>
           </Grid>
 
-          <Grid item xs={6} sm={3} md={2}>
+          <Grid item xs={6} sm={3} md={2} className="projectgrid" >
             <Card className="project">
                 <CardContent className="projectname">
                   Computer Science Club Poster
@@ -267,7 +269,7 @@ function App() {
                   adobe illustrator, graphic design, marketing, typography
                 </CardContent>
 
-                <CardMedia
+                <CardMedia className="csposter"
                   component="img"
                   image={csclubposter}
                   alt="southern oregon university computer science club poster"
@@ -276,6 +278,33 @@ function App() {
 
                 <CardActions className="actions" >
                   <Link href={csclubposter}>+ see more</Link>
+                </CardActions>
+            </Card>
+          </Grid>
+
+          <Grid item xs={6} sm={3} md={2} className="projectgrid" >
+            <Card className="project">
+                <CardContent className="projectname">
+                  Lighthouses Magazine
+                </CardContent>
+
+                <CardContent className="projectskills">
+                  adobe indesign, graphic design, marketing, typography
+                </CardContent>
+
+                <CardMedia className="lighthousesmagazine"
+                  component="img"
+                  image={lighthousesmagazinecover}
+                  alt="lighthouses magazine cover page"
+                  sx={{objectFit: "contain"}}
+                />
+
+                <CardContent className="projectpreview" sx={{marginTop: "0px"}}>
+                  <i>Lighthouses</i> Magazine's December 2022 issue, which focuses on Oregon lighthouses
+                </CardContent>
+
+                <CardActions className="actions" >
+                  <Link href={lighthousesmagazine}>+ see more</Link>
                 </CardActions>
             </Card>
           </Grid>
