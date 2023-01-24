@@ -87,4 +87,13 @@
   .csposter {
     max-height: 445px;
   }
+
+  .cybersecposter {
+    max-height: 420px;
+  }
+
+  .lighthousesmagazine {
+    max-height: 350px;
+  }
+
 }

@@ -1,11 +1,12 @@
 import './App.css';
-import { AppBar, Card, CardActions, CardContent, CardHeader, CardMedia, Grid, IconButton, Link, Toolbar, Typography} from '@mui/material';
+import { AppBar, Card, CardActions, CardContent, CardMedia, Grid, IconButton, Link, Toolbar, Typography} from '@mui/material';
 
 import csclubposter from './media/soucsclubposter.jpg'
 import lighthousesmagazine from './media/lighthouses_magazine.pdf'
 import lighthousesmagazinecover from './media/lighthouses_magazine_cover.jpg'
 import makeitmoveanimation from './media/makeitmoveanimation.mp4'
 import mothman from './media/mothman.png'
+import soucybersecposter from './media/soucybersecposter.png'
 import surveillance from './media/surveillance.png'
 
 import EmailIcon from '@mui/icons-material/Email';
@@ -285,6 +286,29 @@ function App() {
           <Grid item xs={6} sm={3} md={2} className="projectgrid" >
             <Card className="project">
                 <CardContent className="projectname">
+                  Southern Oregon University Cybersecurity Program Poster
+                </CardContent>
+
+                <CardContent className="projectskills">
+                  adobe illustrator, graphic design, marketing, typography
+                </CardContent>
+
+                <CardMedia className="cybersecposter"
+                  component="img"
+                  image={soucybersecposter}
+                  alt="southern oregon university cybersecurity program poster"
+                  sx={{objectFit: "contain"}}
+                />
+
+                <CardActions className="actions" >
+                  <Link href={soucybersecposter}>+ see more</Link>
+                </CardActions>
+            </Card>
+          </Grid>
+
+          <Grid item xs={6} sm={3} md={2} className="projectgrid" >
+            <Card className="project">
+                <CardContent className="projectname">
                   Lighthouses Magazine
                 </CardContent>
 
@@ -305,6 +329,29 @@ function App() {
 
                 <CardActions className="actions" >
                   <Link href={lighthousesmagazine}>+ see more</Link>
+                </CardActions>
+            </Card>
+          </Grid>
+
+          <Grid item xs={6} sm={3} md={2} className="projectgrid" >
+            <Card className="project">
+                <CardContent className="projectname">
+                  Computer Science Club Poster
+                </CardContent>
+
+                <CardContent className="projectskills">
+                  adobe illustrator, graphic design, marketing, typography
+                </CardContent>
+
+                <CardMedia className="csposter"
+                  component="img"
+                  image={csclubposter}
+                  alt="southern oregon university computer science club poster"
+                  sx={{objectFit: "contain"}}
+                />
+
+                <CardActions className="actions" >
+                  <Link href={csclubposter}>+ see more</Link>
                 </CardActions>
             </Card>
           </Grid>
