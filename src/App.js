@@ -33,7 +33,7 @@ function App() {
             <IconButton><GitHubIcon></GitHubIcon></IconButton>
           </Link>
 
-          <Link href="mailto:platts1@sou.edu">
+          <Link href="mailto:sam@theplatts.com">
             <IconButton><EmailIcon></EmailIcon></IconButton>
           </Link>
         </Toolbar>
@@ -60,16 +60,103 @@ function App() {
           well-designed code
         </Typography>
 
-        <Typography className="aboutme" sx={{
+        <Typography sx={{
           fontFamily: "Open Sans",
           fontSize: "12pt",
           justifyContent: "center",
           margin: "0 auto",
           width: "70%",
         }}>
-          I've leaned into design from the start. My first foray into code was through web development in high school, but I was already sketching out designs years before I created my first HTML file.<br/><br/>
-          After a software engineering internship at Docker that showed me the importance of UX and UI design in the software development lifecycle, I realized it was time to return to creativity. I spent my fourth and final year of college exploring all things design.<br/><br/>
+          Hello, my name is Sam Platt. I'm an Oregon based software engineer and recent college graduate.<br/><br/>
+          I've leaned into design from the start. My first experience with code was through web development in high school, but I was already sketching out designs years before I created my first HTML file.<br/><br/>
+          After a software engineering internship at Docker that showed me the importance of UX and UI design in the software development lifecycle, I realized it was time to return to creativity. I spent my fourth and final year of college exploring all things design, completing a minor in <i>Emerging Media and Digital Arts</i>.<br/><br/>
           My goal as a software engineer has always been to surpass the standard of making a product that works; I strive to create software that is an intuitive and pleasant experience for all users.
+        </Typography>
+
+        {/* CREDENTIALS */}
+
+        <Typography sx={{
+          fontFamily: "Open Sans",
+          fontSize: "22pt",
+          fontWeight: "bold",
+          marginBottom: "10px",
+          marginTop: "25px"
+        }}>
+          Credentials
+        </Typography>
+
+        {/* Bachelor of Science */}
+        <Typography sx={{
+          fontFamily: "Open Sans",
+          fontSize: "12pt",
+          justifyContent: "center",
+          margin: "0 auto",
+          width: "70%",
+        }}>
+          Bachelor of Science in Computer Science<br/>
+        </Typography>
+        <Typography sx={{
+          fontFamily: "Open Sans",
+          fontSize: "10pt",
+          justifyContent: "center",
+          margin: "0 auto",
+          width: "70%",
+        }}>
+          Southern Oregon University<br/>
+          graduated June, 2023 • cum laude<br/><br/>
+        </Typography>
+
+        {/* Certificate */}
+        <Typography sx={{
+          fontFamily: "Open Sans",
+          fontSize: "12pt",
+          justifyContent: "center",
+          margin: "0 auto",
+          width: "70%",
+        }}>
+          Certificate in Cybersecurity<br/>
+        </Typography>
+        <Typography sx={{
+          fontFamily: "Open Sans",
+          fontSize: "10pt",
+          justifyContent: "center",
+          margin: "0 auto",
+          width: "70%",
+        }}>
+          Southern Oregon University<br/>
+          graduated June, 2023<br/><br/>
+        </Typography>
+
+        {/* Micro-credential Badges */}
+        <Typography sx={{
+          fontFamily: "Open Sans",
+          fontSize: "12pt",
+          justifyContent: "center",
+          margin: "0 auto",
+          width: "70%",
+        }}>
+          Micro-credential Badge in Network Technology<br/>
+        </Typography>
+        <Typography sx={{
+          fontFamily: "Open Sans",
+          fontSize: "10pt",
+          justifyContent: "center",
+          margin: "0 auto",
+          width: "70%",
+        }}>
+          Southern Oregon University<br/>
+          issued August, 2021<br/><br/>
+        </Typography>
+
+        <Typography sx={{
+          fontFamily: "Open Sans",
+          fontSize: "10pt",
+          fontStyle: "italic",
+          justifyContent: "center",
+          margin: "0 auto",
+          width: "70%",
+        }}>
+          Additional information regarding my credentials and educational background is available on my LinkedIn profile
         </Typography>
 
         {/* MY WORK */}
