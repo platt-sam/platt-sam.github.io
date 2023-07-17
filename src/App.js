@@ -14,69 +14,18 @@ import soucybersecposter from './media/soucybersecposter.png'
 import surveillance from './media/surveillance.png'
 
 function App() {
-
-  const credentials = [
-    {
-      title : "Bachelor of Science in Computer Science",
-      institution : "Southern Oregon University",
-      completion : "graduated June, 2023",
-      honors : "cum laude",
-    },
-    {
-      title : "Certificate in Cybersecurity",
-      institution : "Southern Oregon University",
-      completion : "graduated June, 2023",
-      honors : null,
-    },
-    {
-      title : "Micro-credential Badge in Network Technology",
-      institution : "Southern Oregon University",
-      completion : "issued August 2021",
-      honors : null,
-    },
-  ];
-
   return (
     <div className="App">
 
-      <NavBar></NavBar>
+      <NavBar />
 
-      <div className="main">
+      <div className = "main">
 
-        {/* ABOUT ME */}
-
-        <Intro></Intro>
+        <Intro />
 
         {/* CREDENTIALS */}
 
-        <Typography sx={{
-          fontFamily: "Open Sans",
-          fontSize: "22pt",
-          fontWeight: "bold",
-          marginBottom: "10px",
-          marginTop: "25px"
-        }}>
-          Credentials
-        </Typography>
-
-        {
-          credentials.map(
-            cred => <Credential credential = { cred } />
-          )
-        }
-
-        <Typography
-          sx={{
-            fontFamily: "Open Sans",
-            fontSize: "10pt",
-            fontStyle: "italic",
-            justifyContent: "center",
-            margin: "0 auto",
-            width: "70%",
-          }}
-        >
-          Additional information regarding my credentials and educational background is available on my LinkedIn profile
-        </Typography>
+        <CredentialsContainer />
 
         {/* MY WORK */}
 
