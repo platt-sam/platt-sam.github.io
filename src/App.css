@@ -5,7 +5,7 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-.main {
+.Body {
   width: calc(100vw - 50px);
   justify-content: center;
   margin: 0 auto;
@@ -33,7 +33,7 @@
   margin-top: -20px;
 }
 
-.actions {
+.CardActions {
   font-size: 10pt;
   height: 10pt;
   position: absolute;
