@@ -3,26 +3,6 @@
                 <Grid item xs={6} sm={3} md={2} className="projectgrid" >
                     <Card className="project" >
                         <CardContent className="projectname">
-                            Medford Charities and Social Services
-                        </CardContent>
-
-                        <CardContent className="projectskills">
-                            css, docker, html, gcp, google maps api, python
-                        </CardContent>
-
-                        <CardContent className="projectpreview">
-                            Google Cloud Platform app displaying information about charities and social services in the Medford, Oregon area. Allows user submitted entries. Uses the Google Maps API to show site locations.
-                        </CardContent>
-
-                        <CardActions className="actions" >
-                            <Link href="https://medford-charities-ve76webfba-uw.a.run.app/" >+ see more</Link>
-                        </CardActions>
-                    </Card>
-                </Grid>
-
-                <Grid item xs={6} sm={3} md={2} className="projectgrid" >
-                    <Card className="project" >
-                        <CardContent className="projectname">
                             Ballad of the Woods
                         </CardContent>
 

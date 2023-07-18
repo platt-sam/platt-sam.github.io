@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import './Project.css'
 import { Card, CardActions, CardContent, CardMedia, Grid, Link } from '@mui/material';
 
 function Project(props) {
@@ -8,7 +9,7 @@ function Project(props) {
 
     if (props.project.link != null) {
         formattedLink = (
-            <CardActions className="CardActions" >
+            <CardActions className="link" >
                 <Link href={props.project.link}>+ see more</Link>
             </CardActions>
         );
@@ -28,17 +29,17 @@ function Project(props) {
     return (
         <Grid item xs={6} sm={3} md={2} className="projectgrid">
             <Card className="project">
-                <CardContent className="projectname">
+                <CardContent className="name">
                     {props.project.name}
                 </CardContent>
 
-                <CardContent className="projectskills">
+                <CardContent className="skills">
                     {(props.project.skills).join(", ")}
                 </CardContent>
 
                 {formattedMedia}
 
-                <CardContent className="projectpreview" sx={{ marginTop: "0px" }}>
+                <CardContent className="description" sx={{ marginTop: "0px" }}>
                     {props.project.description}
                 </CardContent>
 

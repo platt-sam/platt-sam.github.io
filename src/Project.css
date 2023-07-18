@@ -1,0 +1,86 @@
+.project {
+    position: relative;
+    padding-bottom: 22pt;
+}
+
+.name {
+    font-size: 16pt;
+    font-weight: bold;
+    margin-bottom: -20pt;
+}
+
+.skills {
+    font-size: 9pt;
+    font-style: italic;
+}
+
+.description {
+    font-size: 12pt;
+    margin-top: -20px;
+}
+
+.link {
+    font-size: 10pt;
+    height: 10pt;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+
+/* min-height finagling for project cards: still in early stages */
+
+/* Two Columns Styles */
+@media screen and (max-width: 900px) and (min-width: 600px) {
+    .projectgrid:nth-child(-n+2) > .project { /* 1 - 2 */
+      min-height: 425px;
+    }
+  
+    .projectgrid:nth-child(n+3):nth-child(-n+4) > .project { /* 3 - 4 */
+      min-height: 300px;
+    }
+  
+    .projectgrid:nth-child(n+5):nth-child(-n+6) > .project { /* 5 - 6 */
+      min-height: 325px;
+    }
+  
+    .projectgrid:nth-child(n+7):nth-child(-n+8) > .project { /* 7 - 8 */
+      min-height: 475px;
+    }
+  
+    .projectgrid:nth-child(n+9):nth-child(-n+10) > .project { /* 9 - 10 */
+      min-height: 525px;
+    }
+  }
+  
+  /* Three Columns Styles */
+  @media screen and (min-width: 900px) {
+    .projectgrid:nth-child(-n+3) > .project { /* 1 - 3 */
+      min-height: 375px;
+    }
+  
+    .projectgrid:nth-child(n+4):nth-child(-n+6) > .project { /* 4 - 6 */
+      min-height: 325px;
+    }
+    
+    .projectgrid:nth-child(n+7):nth-child(-n+9) > .project { /* 7 - 9 */
+      min-height: 575px;
+    }
+  
+    .projectgrid:nth-child(n+10) > .project { /* 10+ */
+      min-height: 575px;
+    }
+  
+    .csposter {
+      max-height: 445px;
+    }
+  
+    .cybersecposter {
+      max-height: 420px;
+    }
+  
+    .lighthousesmagazine {
+      max-height: 350px;
+    }
+  
+  }
