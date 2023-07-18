@@ -1,66 +1,6 @@
 <Grid container columns={6} spacing={"25px"} >
 
                 <Grid item xs={6} sm={3} md={2} className="projectgrid" >
-                    <Card className="project" >
-                        <CardContent className="projectname">
-                            Ballad of the Woods
-                        </CardContent>
-
-                        <CardContent className="projectskills">
-                            css, html, javascript, game design
-                        </CardContent>
-
-                        <CardContent className="projectpreview">
-                            A browser based videogame loosely inspired by the musical <i>Hadestown</i>. Developed with Gianna McCardell and Dean Wilson.
-                        </CardContent>
-
-                        <CardActions className="actions" >
-                            <Link href="https://webpages.sou.edu/~platts1/emda203" >+ see more</Link>
-                        </CardActions>
-                    </Card>
-                </Grid>
-
-                <Grid item xs={6} sm={3} md={2} className="projectgrid" >
-                    <Card className="project" >
-                        <CardContent className="projectname">
-                            Recipe Substitutor
-                        </CardContent>
-
-                        <CardContent className="projectskills">
-                            data scrubbing, python
-                        </CardContent>
-
-                        <CardContent className="projectpreview">
-                            Program that generates comments suggesting that a random ingredient from a given ingredient list is substituted with one randomly chosen from a list of thousands of ingredients.
-                        </CardContent>
-
-                        {/*<CardActions className="actions" >
-                  <Link href="#" >+ see more</Link>
-                </CardActions>*/}
-                    </Card>
-                </Grid>
-
-                <Grid item xs={6} sm={3} md={2} className="projectgrid" >
-                    <Card className="project" >
-                        <CardContent className="projectname">
-                            Docker Access Management
-                        </CardContent>
-
-                        <CardContent className="projectskills">
-                            docker, go, reactjs
-                        </CardContent>
-
-                        <CardContent className="projectpreview">
-                            Unpublished Docker extension created for an internal hackathon. Allows management of Docker organizations, groups, and images from Docker Desktop. Developed with Victor Bersy, Jonathan Dieu, Sylvialynn Favello, and Ryan Hristovski.
-                        </CardContent>
-
-                        {/*<CardActions className="actions" >
-                  <Link href="#" >+ see more</Link>
-                </CardActions>*/}
-                    </Card>
-                </Grid>
-
-                <Grid item xs={6} sm={3} md={2} className="projectgrid" >
                     <Card className="project">
                         <CardContent className="projectname">
                             Mortality (Anxieties)

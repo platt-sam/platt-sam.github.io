@@ -36,6 +36,38 @@ function ProjectsContainer() {
             link : "https://medford-charities-ve76webfba-uw.a.run.app",
         },
         {
+            name : "Ballad of the Woods",
+            skills : ["css", "game design", "html", "javascript"],
+            description : "A browser based videogame loosely inspired by the musical \"Hadestown\". Developed with Gianna McCardell and Dean Wilson.",
+            media : null,
+            link : "https://webpages.sou.edu/~platts1/emda203",
+        },
+        {
+            name : "Recipe Substitutor",
+            skills : ["data scrubbing", "python"],
+            description : "Program that generates comments suggesting that a random ingredient from a given ingredient list is substituted with one randomly chosen from a list of thousands of ingredients.",
+            media : null,
+            link : null,
+        },
+        {
+            name : "Docker Access Management",
+            skills : ["docker", "go", "react.js"],
+            description : "Unpublished Docker extension created for an internal hackathon. Allows management of Docker organizations, groups, and images from Docker Desktop. Developed with Victor Bersy, Jonathan Dieu, Sylvialynn Favello, and Ryan Hristovski.",
+            media : null,
+            link : null,
+        },
+        {
+            name : "Mortality (Anxieties)",
+            skills : ["adobe illustrator", "graphic design", "typography"],
+            description : "Part of the \"Anxieties\" series which showcases western anxieties in the style of Constructivism. This piece depicts the anxieties of mortality and impending death.",
+            media : {
+                type : "img",
+                url : mothman,
+                alt : "typographic poster about mothman and mortality",
+            },
+            link : "",
+        },
+        {
             name : "",
             skills : [],
             description : "",
@@ -46,6 +78,19 @@ function ProjectsContainer() {
             },
             link : "",
         },
+        /*
+        {
+            name : "",
+            skills : [],
+            description : "",
+            media : {
+                type : "",
+                url : "",
+                alt : "",
+            },
+            link : "",
+        },
+        */
     ];
 
     return (
