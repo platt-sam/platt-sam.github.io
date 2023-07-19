@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.2c5231cc.css",
-    "main.js": "/static/js/main.6a50d5d9.js",
+    "main.css": "/static/css/main.6d9310d7.css",
+    "main.js": "/static/js/main.37e0b34b.js",
     "static/media/makeitmoveanimation.mp4": "/static/media/makeitmoveanimation.2a87484703bf6d82c354.mp4",
     "static/media/lighthouses_magazine.pdf": "/static/media/lighthouses_magazine.3120a9ccacce5a2c2fab.pdf",
     "static/media/soucybersecposter.png": "/static/media/soucybersecposter.4c4f6757abced48c1562.png",
     "static/media/soucsclubposter.jpg": "/static/media/soucsclubposter.a1c198a296794f1c2b1d.jpg",
-    "static/media/mothman.png": "/static/media/mothman.542e5ce26ff2a104435d.png",
+    "static/media/mortality.png": "/static/media/mortality.542e5ce26ff2a104435d.png",
     "static/media/surveillance.png": "/static/media/surveillance.e50efa7e5c2a1e719abb.png",
     "static/media/lighthouses_magazine_cover.jpg": "/static/media/lighthouses_magazine_cover.ef051cb49b1b8ca66795.jpg",
     "index.html": "/index.html",
-    "main.2c5231cc.css.map": "/static/css/main.2c5231cc.css.map",
-    "main.6a50d5d9.js.map": "/static/js/main.6a50d5d9.js.map"
+    "main.6d9310d7.css.map": "/static/css/main.6d9310d7.css.map",
+    "main.37e0b34b.js.map": "/static/js/main.37e0b34b.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c5231cc.css",
-    "static/js/main.6a50d5d9.js"
+    "static/css/main.6d9310d7.css",
+    "static/js/main.37e0b34b.js"
   ]
 }
