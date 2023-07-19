@@ -7,9 +7,10 @@ import csclubposter from './media/soucsclubposter.jpg'
 import lighthousesmagazine from './media/lighthouses_magazine.pdf'
 import lighthousesmagazinecover from './media/lighthouses_magazine_cover.jpg'
 import makeitmoveanimation from './media/makeitmoveanimation.mp4'
-import mothman from './media/mothman.png'
+import mortality from './media/mortality.png'
 import soucybersecposter from './media/soucybersecposter.png'
 import surveillance from './media/surveillance.png'
+import { light } from '@mui/material/styles/createPalette';
 
 function ProjectsContainer() {
 
@@ -27,6 +28,13 @@ function ProjectsContainer() {
             description : "Choose your own adventure game where the player attempts to board a plane and ends up landing on an island filled with clowns. First place winner of the HackOR 2021 Hackathon. Developed with Liam Erickson, Ronin Ganoot, and Peter Jacobson.",
             media : null,
             link : null,
+        },
+        {
+            name : "Racing Info CLI",
+            skills : ["object oriented programming", "python", "unit testing"],
+            description : "A CLI program to track information about various motor racing series, such as the teams, drivers, engine manufacturers, and championship standings. Current implementation includes the Formula One 2023 Championship.",
+            media : null,
+            link : "https://github.com/SOUComputerScience/final_project-platt-sam",
         },
         {
             name : "Medford Charities and Social Services",
@@ -62,21 +70,59 @@ function ProjectsContainer() {
             description : "Part of the \"Anxieties\" series which showcases western anxieties in the style of Constructivism. This piece depicts the anxieties of mortality and impending death.",
             media : {
                 type : "img",
-                url : mothman,
+                url : mortality,
                 alt : "typographic poster about mothman and mortality",
+                class : null,
             },
-            link : "",
+            link : mortality,
         },
         {
-            name : "",
-            skills : [],
-            description : "",
+            name : "Surveillance (Anxieties)",
+            skills : ["adobe after effects", "adobe illustrator", "animation", "graphic design", "typography"],
+            description : "Part of the \"Anxieties\" series which showcases western anxieties in the style of Constructivism. This still image is from an animation depicting the anxieties of surveillance.",
             media : {
-                type : "",
-                url : "",
-                alt : "",
+                type : "img",
+                url : surveillance,
+                alt : "typographic poster about surveillance",
+                class : null,
             },
-            link : "",
+            link : makeitmoveanimation,
+        },
+        {
+            name : "Computer Science Club Poster",
+            skills : ["adobe illustrator", "graphic design", "marketing", "typography"],
+            description : null,
+            media : {
+                type : "img",
+                url : csclubposter,
+                alt : "southern oregon university computer science club poster",
+                class : "csposter",
+            },
+            link : csclubposter,
+        },
+        {
+            name : "Southern Oregon University Cybersecurity Program Poster",
+            skills : ["adobe illustrator", "graphic design", "marketing", "typography"],
+            description : null,
+            media : {
+                type : "img",
+                url : soucybersecposter,
+                alt : "southern oregon university cybersecurity program poster",
+                class : "cybersecposter",
+            },
+            link : soucybersecposter,
+        },
+        {
+            name : "Lighthouses Magazine",
+            skills : ["adobe indesign", "graphic design", "marketing", "typography"],
+            description : "\"Lighthouses\" Magazine's December 2022 issue, which focuses on Oregon lighthouses.",
+            media : {
+                type : "img",
+                url : lighthousesmagazinecover,
+                alt : "lighthouses magazine cover page",
+                class : "lighthousesmagazine",
+            },
+            link : lighthousesmagazine,
         },
         /*
         {
@@ -87,6 +133,7 @@ function ProjectsContainer() {
                 type : "",
                 url : "",
                 alt : "",
+                class : "",
             },
             link : "",
         },

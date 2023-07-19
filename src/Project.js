@@ -22,6 +22,7 @@ function Project(props) {
                 image = {props.project.media.url}
                 alt = {props.project.media.alt}
                 sx = {{objectFit: "contain"}}
+                className = {props.project.media.class}
             />
         );
     }
