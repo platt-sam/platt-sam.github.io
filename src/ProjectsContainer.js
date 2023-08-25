@@ -10,7 +10,6 @@ import makeitmoveanimation from './media/makeitmoveanimation.mp4'
 import mortality from './media/mortality.png'
 import soucybersecposter from './media/soucybersecposter.png'
 import surveillance from './media/surveillance.png'
-import { light } from '@mui/material/styles/createPalette';
 
 function ProjectsContainer() {
 
@@ -34,7 +33,7 @@ function ProjectsContainer() {
             skills : ["object oriented programming", "python", "unit testing"],
             description : "A CLI program to track information about various motor racing series, such as the teams, drivers, engine manufacturers, and championship standings. Current implementation includes the Formula One 2023 Championship.",
             media : null,
-            link : "https://github.com/SOUComputerScience/final_project-platt-sam",
+            link : "https://github.com/SOUComputerScience/racing-info-cli",
         },
         {
             name : "Medford Charities and Social Services",
