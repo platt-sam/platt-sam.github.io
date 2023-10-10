@@ -40,7 +40,7 @@ function ProjectsContainer() {
             skills : ["css", "docker", "gcp", "google maps api", "html", "python"],
             description : "Google Cloud Platform app displaying information about charities and social services in the Medford, Oregon area. Allows user submitted entries. Uses the Google Maps API to show site locations.",
             media : null,
-            link : "https://medford-charities-ve76webfba-uw.a.run.app",
+            link : null,
         },
         {
             name : "Ballad of the Woods",
