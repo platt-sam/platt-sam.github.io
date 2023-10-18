@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6d9310d7.css",
-    "main.js": "/static/js/main.9a936b28.js",
+    "main.js": "/static/js/main.8404ae1c.js",
     "static/media/makeitmoveanimation.mp4": "/static/media/makeitmoveanimation.2a87484703bf6d82c354.mp4",
     "static/media/lighthouses_magazine.pdf": "/static/media/lighthouses_magazine.3120a9ccacce5a2c2fab.pdf",
     "static/media/soucybersecposter.png": "/static/media/soucybersecposter.4c4f6757abced48c1562.png",
@@ -11,10 +11,10 @@
     "static/media/lighthouses_magazine_cover.jpg": "/static/media/lighthouses_magazine_cover.ef051cb49b1b8ca66795.jpg",
     "index.html": "/index.html",
     "main.6d9310d7.css.map": "/static/css/main.6d9310d7.css.map",
-    "main.9a936b28.js.map": "/static/js/main.9a936b28.js.map"
+    "main.8404ae1c.js.map": "/static/js/main.8404ae1c.js.map"
   },
   "entrypoints": [
     "static/css/main.6d9310d7.css",
-    "static/js/main.9a936b28.js"
+    "static/js/main.8404ae1c.js"
   ]
 }
