@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import { AppBar, IconButton, Link, Toolbar} from '@mui/material';
-import EmailIcon from '@mui/icons-material/Email';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
@@ -23,10 +22,6 @@ function NavBar() {
 
           <Link href={github}>
             <IconButton><GitHubIcon></GitHubIcon></IconButton>
-          </Link>
-
-          <Link href="mailto:sam@theplatts.com">
-            <IconButton><EmailIcon></EmailIcon></IconButton>
           </Link>
         </Toolbar>
       </AppBar>
